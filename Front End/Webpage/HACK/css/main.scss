@@ -1,0 +1,259 @@
+    body {
+        font-family: nunito, sans-serif;
+        margin: 0;
+    }
+    
+    .hide_moblie {
+        display: none;
+    }
+    
+    .container {
+        text-align: center;
+        padding: .8em 1.2em;
+        max-width: 1440px;
+        margin: 10px auto 0 auto;
+        header {
+            display: flex;
+            justify-content: space-between;
+            a {
+                text-decoration: none;
+                color: rgb(20, 20, 20);
+                //padding: 10px;
+            }
+        }
+        nav {
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            .menu {
+                width: 25px;
+                margin-top: 20%;
+            }
+        }
+        nav a:hover {
+            background-color: #655;
+        }
+    }
+    
+    section {
+        margin-top: 10px;
+        height: 400px;
+        // border: 2px solid black;
+        //background: lightblue;
+        display: grid;
+        position: relative;
+        z-index: -4;
+        top: 0%;
+        left: 0%;
+        h1 {
+            position: absolute;
+            top: 22%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            font-size: 4em;
+            color: white;
+        }
+    }
+    
+    .type {
+        //display: grid;
+        //grid-template-columns: auto;
+        //grid-column: 2;
+        position: absolute;
+        top: 35%;
+        left: 14%;
+        z-index: 2;
+        // border: 4px solid black;
+        p {
+            margin: 0;
+        }
+    }
+    
+    $blob1Color: #2B2B2B;
+    $blob2Color: #FF793E;
+    .blob {
+        // border: 4px solid black;
+        //grid-column: 2;
+        position: relative;
+        z-index: -2;
+        top: 10%;
+        left: 0;
+        background: $blob1Color;
+        width: 100%;
+        height: 60%;
+        animation: blobing 3s .1s linear infinite both alternate;
+        // ,movement 4s ease-in-out infinite both;
+    }
+    
+    .blob2 {
+        // border: 4px solid black;
+        position: absolute;
+        z-index: -3;
+        top: 12%;
+        left: -10%;
+        transform: translate(-50%, 50%);
+        background: $blob2Color;
+        width: 120%;
+        height: 80%;
+        animation: blobing 2s linear infinite both alternate;
+        // ,movement 4s ease-in-out infinite both;
+    }
+    
+    @keyframes blobing {
+        0%,
+        100% {
+            transform: scale(.9);
+            border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+        }
+        14% {
+            border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+        }
+        28% {
+            transform: scale(.8);
+            border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+        }
+        42% {
+            border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+        }
+        56% {
+            border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+        }
+        70% {
+            border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+        }
+        84% {
+            border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+        }
+    }
+    
+    @keyframes movement {
+        0%,
+        100% {
+            transform: none;
+        }
+        50% {
+            transform: translateY(20%) rotateY(50deg);
+        }
+    }
+    
+    .typing {
+        font-family: monospace;
+        overflow: hidden;
+        white-space: nowrap;
+        //font-size: 1.2em;
+    }
+    
+    mark.Corange {
+        background: inherit;
+        color: #CC7832;
+    }
+    
+    mark.Cdark {
+        background: inherit;
+        color: #808080;
+    }
+    
+    .Cgrey {
+        background: inherit;
+        color: #A9B7C6;
+    }
+    
+    .Cpurple {
+        background: inherit;
+        color: #9876AA;
+    }
+    
+    .t1 {
+        border-right: 2px solid black;
+        animation: typed_t1 4s steps(32) 1s 1 normal both, blinkTextCursor 500ms steps(7) 10 forwards;
+    }
+    
+    .t2 {
+        border-right: 2px solid black;
+        animation: typed_t2 4s steps(1) 2s 1 normal both, blinkTextCursor 500ms steps(7) 5.2s 2 forwards;
+    }
+    
+    .t3 {
+        border-right: 2px solid black;
+        animation: typed_t3 4s steps(11) 6s 1 normal both, blinkTextCursor 500ms steps(7) 6.3s 7 forwards;
+    }
+    
+    .t4 {
+        border-right: 2px solid black;
+        animation: typed_t3 4s steps(11) 10s 1 normal both, blinkTextCursor 500ms steps(7) 10s 9 forwards;
+    }
+    
+    .t5 {
+        border-right: 2px solid black;
+        animation: typed_t2 4s steps(1) 11s 1 normal both, blinkTextCursor 500ms steps(7) 14.6s infinite;
+    }
+    
+    @keyframes blinkTextCursor {
+        from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+        }
+        to {
+            border-right-color: transparent;
+        }
+    }
+    
+    @keyframes typed_t1 {
+        from {
+            width: 0ch;
+        }
+        to {
+            width: 33ch;
+        }
+    }
+    
+    @keyframes typed_t2 {
+        from {
+            border-right-color: transparent;
+            width: 0ch;
+        }
+        to {
+            width: 2ch;
+        }
+    }
+    
+    @keyframes typed_t3 {
+        from {
+            border-right-color: transparent;
+            width: 0ch;
+        }
+        to {
+            width: 11ch;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .show_desktop {
+            display: block;
+            margin: 0 auto 13% auto;
+        }
+        .hide-desktop {
+            display: none;
+        }
+        .logo {
+            font-weight: 900;
+        }
+        nav {
+            ul {
+                position: inherit;
+                width: auto;
+                height: auto;
+                display: flex;
+                padding-top: 0px;
+                li {
+                    float: left;
+                    a {
+                        color: red;
+                        text-align: right;
+                        padding: 1em 2em;
+                    }
+                }
+            }
+        }
+    }

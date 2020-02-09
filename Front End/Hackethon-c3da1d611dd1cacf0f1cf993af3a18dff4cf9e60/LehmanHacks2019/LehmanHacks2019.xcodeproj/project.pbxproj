@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6E2458237FACC700E8B782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2457237FACC700E8B782 /* AppDelegate.swift */; };
+		1E6E245A237FACC700E8B782 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2459237FACC700E8B782 /* DrawViewController.swift */; };
+		1E6E245D237FACC800E8B782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E245B237FACC800E8B782 /* Main.storyboard */; };
+		1E6E2460237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E245E237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld */; };
+		1E6E2462237FACCD00E8B782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E2461237FACCD00E8B782 /* Assets.xcassets */; };
+		1E6E2465237FACCD00E8B782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E2463237FACCD00E8B782 /* LaunchScreen.storyboard */; };
+		1E6E246E237FB43A00E8B782 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E246D237FB43A00E8B782 /* CanvasView.swift */; };
+		1E6E2470237FB5D000E8B782 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E246F237FB5CF00E8B782 /* MNISTClassifier.mlmodel */; };
+		1E6E2473237FF01B00E8B782 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2472237FF01B00E8B782 /* NameViewController.swift */; };
+		1E6E2475237FF03A00E8B782 /* StartUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */; };
+		1E6E2477237FF7D600E8B782 /* 2113-dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E2476237FF7D600E8B782 /* 2113-dog.json */; };
+		1E6E247B2380194200E8B782 /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E247A2380194200E8B782 /* SubscribeViewController.swift */; };
+		1E6E247D23801A1300E8B782 /* 2497-trophy.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E247C23801A1200E8B782 /* 2497-trophy.json */; };
+		2BFC725688FBD64459901E7E /* Pods_LehmanHacks2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D75054AE5FE221FB8E050 /* Pods_LehmanHacks2019.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E6E2454237FACC700E8B782 /* LehmanHacks2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LehmanHacks2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6E2457237FACC700E8B782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E6E2459237FACC700E8B782 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		1E6E245C237FACC800E8B782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E6E245F237FACC800E8B782 /* LehmanHacks2019.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LehmanHacks2019.xcdatamodel; sourceTree = "<group>"; };
+		1E6E2461237FACCD00E8B782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E6E2464237FACCD00E8B782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E6E2466237FACCD00E8B782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6E246D237FB43A00E8B782 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		1E6E246F237FB5CF00E8B782 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
+		1E6E2472237FF01B00E8B782 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpViewController.swift; sourceTree = "<group>"; };
+		1E6E2476237FF7D600E8B782 /* 2113-dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2113-dog.json"; sourceTree = "<group>"; };
+		1E6E247A2380194200E8B782 /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		1E6E247C23801A1200E8B782 /* 2497-trophy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2497-trophy.json"; sourceTree = "<group>"; };
+		3D0D75054AE5FE221FB8E050 /* Pods_LehmanHacks2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LehmanHacks2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D60621E77CE9167E0CC6110 /* Pods-LehmanHacks2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LehmanHacks2019.debug.xcconfig"; path = "Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0863B72AD29F3BEAAD2B9A /* Pods-LehmanHacks2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LehmanHacks2019.release.xcconfig"; path = "Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6E2451237FACC700E8B782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFC725688FBD64459901E7E /* Pods_LehmanHacks2019.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6E244B237FACC700E8B782 = {
+			isa = PBXGroup;
+			children = (
+				1E6E2456237FACC700E8B782 /* LehmanHacks2019 */,
+				1E6E2455237FACC700E8B782 /* Products */,
+				CA0A428FF0EC7AA8D11F1C3D /* Pods */,
+				71F02B8C7BC7427F47F8DD2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E6E2455237FACC700E8B782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E2454237FACC700E8B782 /* LehmanHacks2019.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6E2456237FACC700E8B782 /* LehmanHacks2019 */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E2476237FF7D600E8B782 /* 2113-dog.json */,
+				1E6E247C23801A1200E8B782 /* 2497-trophy.json */,
+				1E6E2471237FEFDE00E8B782 /* Controller */,
+				1E6E246F237FB5CF00E8B782 /* MNISTClassifier.mlmodel */,
+				1E6E246C237FB42900E8B782 /* View */,
+				1E6E2457237FACC700E8B782 /* AppDelegate.swift */,
+				1E6E245B237FACC800E8B782 /* Main.storyboard */,
+				1E6E2461237FACCD00E8B782 /* Assets.xcassets */,
+				1E6E2463237FACCD00E8B782 /* LaunchScreen.storyboard */,
+				1E6E2466237FACCD00E8B782 /* Info.plist */,
+				1E6E245E237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld */,
+			);
+			path = LehmanHacks2019;
+			sourceTree = "<group>";
+		};
+		1E6E246C237FB42900E8B782 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E246D237FB43A00E8B782 /* CanvasView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E6E2471237FEFDE00E8B782 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E2474237FF03A00E8B782 /* StartUpViewController.swift */,
+				1E6E2472237FF01B00E8B782 /* NameViewController.swift */,
+				1E6E2459237FACC700E8B782 /* DrawViewController.swift */,
+				1E6E247A2380194200E8B782 /* SubscribeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71F02B8C7BC7427F47F8DD2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D0D75054AE5FE221FB8E050 /* Pods_LehmanHacks2019.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0A428FF0EC7AA8D11F1C3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D60621E77CE9167E0CC6110 /* Pods-LehmanHacks2019.debug.xcconfig */,
+				ED0863B72AD29F3BEAAD2B9A /* Pods-LehmanHacks2019.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E6E2453237FACC700E8B782 /* LehmanHacks2019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6E2469237FACCD00E8B782 /* Build configuration list for PBXNativeTarget "LehmanHacks2019" */;
+			buildPhases = (
+				0D11AD414EADA6C8A2B1CB02 /* [CP] Check Pods Manifest.lock */,
+				1E6E2450237FACC700E8B782 /* Sources */,
+				1E6E2451237FACC700E8B782 /* Frameworks */,
+				1E6E2452237FACC700E8B782 /* Resources */,
+				1FFC820BE2A083B6015F06DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LehmanHacks2019;
+			productName = LehmanHacks2019;
+			productReference = 1E6E2454237FACC700E8B782 /* LehmanHacks2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E6E244C237FACC700E8B782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sabri Sönmez";
+				TargetAttributes = {
+					1E6E2453237FACC700E8B782 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E6E244F237FACC700E8B782 /* Build configuration list for PBXProject "LehmanHacks2019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E6E244B237FACC700E8B782;
+			productRefGroup = 1E6E2455237FACC700E8B782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E6E2453237FACC700E8B782 /* LehmanHacks2019 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6E2452237FACC700E8B782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6E247D23801A1300E8B782 /* 2497-trophy.json in Resources */,
+				1E6E2465237FACCD00E8B782 /* LaunchScreen.storyboard in Resources */,
+				1E6E2462237FACCD00E8B782 /* Assets.xcassets in Resources */,
+				1E6E245D237FACC800E8B782 /* Main.storyboard in Resources */,
+				1E6E2477237FF7D600E8B782 /* 2113-dog.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D11AD414EADA6C8A2B1CB02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LehmanHacks2019-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFC820BE2A083B6015F06DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LehmanHacks2019/Pods-LehmanHacks2019-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6E2450237FACC700E8B782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6E2460237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld in Sources */,
+				1E6E247B2380194200E8B782 /* SubscribeViewController.swift in Sources */,
+				1E6E245A237FACC700E8B782 /* DrawViewController.swift in Sources */,
+				1E6E246E237FB43A00E8B782 /* CanvasView.swift in Sources */,
+				1E6E2458237FACC700E8B782 /* AppDelegate.swift in Sources */,
+				1E6E2470237FB5D000E8B782 /* MNISTClassifier.mlmodel in Sources */,
+				1E6E2475237FF03A00E8B782 /* StartUpViewController.swift in Sources */,
+				1E6E2473237FF01B00E8B782 /* NameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E6E245B237FACC800E8B782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6E245C237FACC800E8B782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E6E2463237FACCD00E8B782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6E2464237FACCD00E8B782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E6E2467237FACCD00E8B782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E6E2468237FACCD00E8B782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E6E246A237FACCD00E8B782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D60621E77CE9167E0CC6110 /* Pods-LehmanHacks2019.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7DR32825H;
+				INFOPLIST_FILE = LehmanHacks2019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sabri.LehmanHacks2019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E6E246B237FACCD00E8B782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0863B72AD29F3BEAAD2B9A /* Pods-LehmanHacks2019.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7DR32825H;
+				INFOPLIST_FILE = LehmanHacks2019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sabri.LehmanHacks2019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6E244F237FACC700E8B782 /* Build configuration list for PBXProject "LehmanHacks2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6E2467237FACCD00E8B782 /* Debug */,
+				1E6E2468237FACCD00E8B782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6E2469237FACCD00E8B782 /* Build configuration list for PBXNativeTarget "LehmanHacks2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6E246A237FACCD00E8B782 /* Debug */,
+				1E6E246B237FACCD00E8B782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E6E245E237FACC800E8B782 /* LehmanHacks2019.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E6E245F237FACC800E8B782 /* LehmanHacks2019.xcdatamodel */,
+			);
+			currentVersion = 1E6E245F237FACC800E8B782 /* LehmanHacks2019.xcdatamodel */;
+			path = LehmanHacks2019.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E6E244C237FACC700E8B782 /* Project object */;
+}

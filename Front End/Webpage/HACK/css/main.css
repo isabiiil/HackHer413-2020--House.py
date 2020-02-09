@@ -1,0 +1,255 @@
+html {
+    background-color: #ffb155;
+}
+
+body {
+    font-family: nunito, sans-serif;
+    margin: 0;
+}
+
+.hide_moblie {
+    display: none;
+}
+
+.container header {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+header {
+    padding: 40px;
+    margin: -22px;
+}
+
+.container header a {
+    text-decoration: none;
+    color: #A5A5A5;
+}
+
+.container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container nav .menu {
+    width: 25px;
+    margin-top: 20%;
+}
+
+.container nav a:hover {
+    background-color: #ffb155;
+}
+
+section {
+    margin-top: 10px;
+    height: 300px;
+    display: -ms-grid;
+    display: grid;
+    position: relative;
+    z-index: -4;
+    top: 0%;
+    left: 0%;
+}
+
+section h1 {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    font-size: 4em;
+    color: white;
+}
+
+.type {
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    z-index: 2;
+}
+
+.type p {
+    margin: 0;
+}
+
+.blob {
+    position: relative;
+    z-index: -2;
+    top: 10%;
+    left: 0;
+    background: #ffb155;
+    background-size: cover;
+    height: 60%;
+}
+
+
+/* hero section s*/
+
+.hero-section {
+    background-image: url(../css/assets/pexels-photo-256468.jpeg);
+    margin-top: 400px;
+    padding: 100px;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learn {
+    background-image: url(../css/assets/pexels-photo-247819.jpeg);
+    margin-top: 400px;
+    padding: 100px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lehman {
+    background-image: url(../css/assets/lehman.jfif);
+    margin-top: 400px;
+    padding: 100px;
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    font-size: 50px;
+    margin-top: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.middle {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.mouse {
+    width: 60px;
+    height: 125px;
+    border: 4px solid #333;
+    border-radius: 60px;
+}
+
+.mouse::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 40px;
+    background: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: 1;
+    animation: mouse 2s infinite;
+}
+
+.info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15%;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.filler {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.cray {
+    display: block;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+@keyframes mouse {
+    from {
+        opacity: 1;
+        top: 30px;
+    }
+    to {
+        opacity: 0;
+        top: 150px;
+    }
+}
+
+@keyframes movement {
+    0%,
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+    50% {
+        -webkit-transform: translateY(20%) rotateY(50deg);
+        transform: translateY(20%) rotateY(50deg);
+    }
+}
+
+.typing {
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+    .show_desktop {
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+    .hide-desktop {
+        display: none;
+    }
+    .logo {
+        font-weight: 1000;
+    }
+    nav ul {
+        position: inherit;
+        width: auto;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding-top: 0px;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        color: red;
+        text-align: right;
+        padding: 1em 2em;
+    }
+}
+
+
+/*# sourceMappingURL=main.css.map */

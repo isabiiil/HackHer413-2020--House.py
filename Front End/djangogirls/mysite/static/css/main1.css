@@ -1,0 +1,170 @@
+body {
+  font-family: nunito, sans-serif;
+  margin: 0;
+}
+
+.hide_moblie {
+  display: none;
+}
+
+.container {
+  text-align: center;
+  padding: .8em 1.2em;
+  max-width: 1440px;
+  margin: 10px auto 0 auto;
+}
+
+.container header {
+  padding: 30px;
+  margin: -20px;
+  width: 100%;
+  background: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container header a {
+  text-decoration: none;
+  color: #141414;
+  border-radius: 40px;
+}
+
+.container nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container nav .menu {
+  width: 25px;
+  margin-top: 20%;
+}
+
+.container nav a:hover {
+  background-color: #FFB155;
+  color: white;
+}
+
+section {
+  margin-top: 10px;
+  height: 350px;
+  background: #FFB155;
+  display: -ms-grid;
+  display: grid;
+  z-index: -4;
+  top: 0%;
+  left: 0%;
+}
+
+section h1 {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  font-size: 4em;
+  color: white;
+}
+
+section img {
+  margin: 40px 20%;
+  width: 60%;
+}
+
+.left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40 40;
+      grid-template-columns: 40 40;
+  padding: 20px;
+  margin: 40px;
+}
+
+.left .abo {
+  margin: 0;
+  width: 300px;
+  height: 500px;
+}
+
+.register {
+  background-color: #FA6980;
+}
+
+.CallToActionBTN {
+  background-color: #FA6980;
+  /* Green */
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  width: 30%;
+  height: 30%;
+  font-size: 10px;
+  margin: -90px 0px 150px 100px;
+}
+
+.CallToActionBTN:hover {
+  background-color: #c23c60;
+}
+
+.footer {
+  background-color: #7d7e83;
+  color: #161515;
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+
+.images100 img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .show_desktop {
+    display: block;
+    margin: 0 auto 13% auto;
+  }
+  .hide-desktop {
+    display: none;
+  }
+  .logo {
+    font-weight: 900;
+  }
+  section {
+    height: 600px;
+  }
+  section img {
+    margin: 90px 20%;
+    width: 60%;
+  }
+  .CallToActionBTN {
+    margin: -200px 0px 200px 340px;
+    font-size: 20px;
+    width: 20%;
+    height: 120%;
+  }
+  nav ul {
+    position: inherit;
+    width: auto;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0px;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    color: red;
+    text-align: right;
+    padding: 1em 2em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
