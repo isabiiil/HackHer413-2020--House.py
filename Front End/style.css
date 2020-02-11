@@ -1,0 +1,121 @@
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+.hero {
+  margin-top: 80px;
+  padding: 30px;
+  max-width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)), url('images/hero-img.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #4B4240;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #4B4240;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #4B4240;
+  text-decoration: underline;
+}
+
+.hero h1 {
+    color: #4B4240;
+    font-size: 40px;
+    max-width: 50px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    float: left;
+    text-shadow: 1px 1px #000000;
+}
+
+#content-body {
+  margin: auto;
+  width: 75%;
+  padding: 15px;
+}
+
+#about {
+  margin: 20px;
+  padding: 15px;
+}
+
+#checklist {
+  margin: 20px;
+  padding: 15px;
+}
+
+#vision {
+  margin: 20px;
+  padding: 15px;
+}
+
+#title {
+  font-size: 26px;
+}
+
+h2 {
+  color: #4B4240;
+  font-size: 40px;
+  margin: 20px;
+  padding: 10px;
+}
+
+h3 {
+  color: #4B4240;
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
+}
+
+p, li {
+  color: #4B4240;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px;
+}

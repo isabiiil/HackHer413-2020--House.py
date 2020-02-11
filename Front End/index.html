@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HousePy - HackHer413 2020</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li id="title">HousePy</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#checklist">Checklist</a></li>
+        <li><a href="#upload">Upload</a></li>
+        <li><a href="mailto:hello@housepy.com">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+  </div>
+
+  <div id="content-body">
+    <div id="about">
+        <h2>About HousePy</h2>
+        <p><strong>What is HousePy?</strong> We are preventing inaccessibility before it even arises! Using computer vision algorithms, we allow engineers and interior designers to align their designs to accessibility regulations and best practices. This improves the quality of life for every differently-abled person.</p>
+
+        <p>Our website provides a platform for engineers, architects, interior designers, and other home creators to have a checklist of accessibility regulations. This prevents accessibility issues before they even arise. Using computer vision to "check off" the different requirements for making an accessible home makes it even more convenient for creators to tailor their designs to the user that requires accommodations. Users can take a picture of a part of the house, and see if it's accessible for all users. In an example, the app will check whether the door is wide enough to fit a wheelchair.</p>
+
+        <h3>Why is this important?</h3>
+        
+        <p>Accessibility means that people can do what they need to do in a similar amount of time and effort as someone that does not have a disability. It means that people are empowered, can be independent, and will not be frustrated by something that is poorly designed or implemented. We, as creators of House.py, wanted to gain empathy to improve the quality of life for differently-abled people.</p>
+    </div>
+    <div id="checklist">
+        <h2>Checklist</h2>
+        <p>The following list of questions allows you to conduct your own site survey to determine what barrier smay need to be modified in the home:</p>
+        <ul>
+          <li>Can the colors be seen by all?</li>
+          <li>Does the doorway have at least a 32 inch clearance?</li>
+          <li>Can a person reach the sink faucets while in a seated position?</li>
+          <li>Are electrical wall outlets easy to reach and grounded for safety?</li>
+          <li>Is  there  adjustable  shelving and rod space in your  bedroom  closets  to accommodate different heights?</li>
+          <li>Are all halls at least 3 feet wide?</li>
+        </ul>
+    </div>
+    <div id="upload">
+        <h2>Computer Vision</h2>
+        <p>We created a computer vision algorithm using OpenCV and Google Colab to view dimensions of doorways, room layouts, and furniture based on a known reference object, and determine the accessibility factor of the home. Upload an image of your desired object or layout and the prograam will determine its accessibility factor.</p>
+    </div>
+  </div>
+  <p id="copyright">© made with love and face masks</p>
+</body>
+</html>
