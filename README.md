@@ -1,5 +1,5 @@
 # HackHer413 2020
-![logo](Front%20End/Webpage/HACK/Images/house-py.PNG)
+![logo](Front%20End/Images/house-py.PNG)
 
 ## Description as a Tweet:
 We are preventing inaccessibility before it even arises! Using computer vision algorithms, we allow engineers and interior designers to align their designs to accessibility regulations and best practices. This improves the quality of life for every differently-abled person.
