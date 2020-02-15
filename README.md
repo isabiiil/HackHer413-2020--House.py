@@ -15,11 +15,11 @@ It is primarily a checklist for engineers, architects, interior designers, and o
 We created the computer vision algorithm using OpenCV and Google Colab. We created the website using Django.
 
 ## Technologies we used:
-"HTML"/"CSS"
-"JavaScript"
-"Python"
-""Django"
-"AI"/"Machine Learning"
+**`HTML`**/**`CSS`**
+**`JavaScript`**
+**`Python`**
+**`Django`**
+**`AI`**/**`Machine Learning`**
 
 ## Challenges we ran into:
 The team was ideating until almost 10 in the evening, which gave us even less time to code. We were all using technologies we never used before, and there was a relatively steep learning curve. We got really sleepy real quick. And it was cold.
